@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/7jaup9HprdJno2diw
+// https://codefights.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2diw
 bool tennisSet(int score1, int score2) {
     if(score1 >= 7 && score2 >= 7) return false;
     if(score1 >= 5 && score1 <= 7 && score2 >= 5 && score2 <= 7)

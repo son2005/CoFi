@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/QrCSNQWhnQoaK9KgK
+// https://codefights.com/arcade/code-arcade/at-the-crossroads/QrCSNQWhnQoaK9KgK
 bool arithmeticExpression(int a, int b, int c) {
     int resAdd = a + b;
     int resSub = a - b;

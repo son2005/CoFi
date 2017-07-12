@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/aFF9HDm2Rsti9j5kc
+// https://codefights.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc
 bool isInfiniteProcess(int a, int b) {
     // Method 1
     // while(a != b && b != 0) {

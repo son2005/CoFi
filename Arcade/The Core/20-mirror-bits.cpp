@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/e3zfPNTwTa9qTQzcX
+// https://codefights.com/arcade/code-arcade/corner-of-0s-and-1s/e3zfPNTwTa9qTQzcX
 int mirrorBits(int a) {
     // string res = bitset<32>(a).to_string();
     // int i = 0, counter(0);

@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/dShYZZT4WmvpmfpgB
+// https://codefights.com/arcade/code-arcade/corner-of-0s-and-1s/dShYZZT4WmvpmfpgB
 int swapAdjacentBits(int n) {
   return ((n & 0xAAAAAAAA) >> 1) | ((n & 0x55555555) << 1);
 }

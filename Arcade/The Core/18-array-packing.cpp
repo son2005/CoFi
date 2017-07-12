@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/intro-gates/KeMqde6oqfF5wBXxf
+// https://codefights.com/arcade/code-arcade/corner-of-0s-and-1s/KeMqde6oqfF5wBXxf
 int arrayPacking(std::vector<int> a) {
     // string res;
     // for(auto &&i : a) res = bitset<8>(i).to_string() + res;
