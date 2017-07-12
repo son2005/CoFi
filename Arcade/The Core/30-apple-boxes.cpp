@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf/description
+// https://codefights.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf
 int appleBoxes(int k) {
     int yellowApples = 0,
         redApples = 0;

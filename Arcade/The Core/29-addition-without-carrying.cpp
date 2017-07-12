@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S/description
+// https://codefights.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S
 int additionWithoutCarrying(int param1, int param2) {
     int res = 0, mul = 1;
     while(param1 + param2) {

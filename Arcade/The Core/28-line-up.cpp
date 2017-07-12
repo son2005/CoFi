@@ -1,4 +1,4 @@
-// https://codefights.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM/description
+// https://codefights.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM
 int lineUp(std::string commands) {
     unordered_map<char, double> m;
     m['L'] = m['R'] = .5;
