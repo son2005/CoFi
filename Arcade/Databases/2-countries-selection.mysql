@@ -1,0 +1,5 @@
+// https://codefights.com/arcade/db/welcome-to-the-table/jLeSZGMvaEhSJnEsS
+CREATE PROCEDURE countriesSelection()
+BEGIN
+	SELECT * FROM countries WHERE continent = 'Africa';
+END
