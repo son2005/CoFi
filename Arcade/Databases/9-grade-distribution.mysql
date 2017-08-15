@@ -1,0 +1,7 @@
+// https://codefights.com/arcade/db/always-leave-table-in-order/jxvpRwWSTtmQne5XN
+CREATE PROCEDURE gradeDistribution()
+BEGIN
+    SELECT Name, ID FROM Grades
+    WHERE 2 * final > midterm1 + midterm2
+    ORDER BY SUBSTR(name,1,3), ID;
+END
