@@ -1,0 +1,10 @@
+// https://codefights.com/arcade/db/would-you-like-the-second-meal/L3FekSnxCGMpK34bd
+CREATE PROCEDURE suspectsInvestigation()
+BEGIN
+	SELECT id, name, surname
+    FROM Suspect
+    WHERE height <= 170
+    AND UPPER(LEFT(name, 1)) = 'B'
+    AND surname LIKE 'Gre_n'
+    ;
+END
