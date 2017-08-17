@@ -1,0 +1,16 @@
+// https://codefights.com/arcade/db/would-you-like-the-second-meal/qLGqhPwQtsrKRzEgv
+CREATE PROCEDURE newsSubscribers()
+BEGIN
+    SELECT DISTINCT(subscriber) FROM (
+	SELECT subscriber
+    FROM full_year f
+    WHERE newspaper LIKE '%Daily%'
+    UNION
+    SELECT subscriber
+    FROM half_year h
+    WHERE newspaper LIKE '%Daily%'
+    ) n
+    ORDER BY subscriber ASC
+;
+
+END

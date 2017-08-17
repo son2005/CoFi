@@ -1,0 +1,11 @@
+// https://codefights.com/arcade/db/would-you-like-the-second-meal/NEmMmhyncr4X4ZHbh
+CREATE PROCEDURE testCheck()
+    SELECT id, IF ( given_answer = correct_answer,
+                   'correct',
+                   IF (given_answer IS NULL,
+                       'no answer',
+                       'incorrect'
+                      )
+                  ) AS checks
+    FROM answers
+    ORDER BY id;
