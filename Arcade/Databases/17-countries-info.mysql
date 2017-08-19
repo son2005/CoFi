@@ -1,0 +1,8 @@
+// https://codefights.com/arcade/db/group-dishes-by-type/h7GGsvN5tFMx5kytQ
+CREATE PROCEDURE countriesInfo()
+BEGIN
+    SELECT COUNT(*) AS number, AVG(population) average, SUM(population) total
+    FROM  countries
+;
+
+END
