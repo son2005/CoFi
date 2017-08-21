@@ -1,0 +1,8 @@
+// https://codefights.com/arcade/db/group-dishes-by-type/PPNoC7RpXJPGQcqi2
+CREATE PROCEDURE travelDiary()
+BEGIN
+	SELECT GROUP_CONCAT(DISTINCT country SEPARATOR ";") countries
+    FROM diary
+    GROUP BY 'all'
+;
+END
