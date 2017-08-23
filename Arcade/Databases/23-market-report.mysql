@@ -1,0 +1,8 @@
+// https://codefights.com/arcade/db/group-dishes-by-type/47JJ5SEJHSdLusQeQ
+CREATE PROCEDURE marketReport()
+BEGIN
+	SELECT IFNULL(country, 'Total:') country, IFNULL(COUNT(competitor), SUM(competitor)) competitors
+    FROM foreignCompetitors
+    GROUP BY country WITH ROLLUP
+;
+END
