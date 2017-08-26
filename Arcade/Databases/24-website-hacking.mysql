@@ -1,0 +1,7 @@
+// https://codefights.com/arcade/db/group-dishes-by-type/qAXNmPJATv6vQJ4DH
+CREATE PROCEDURE websiteHacking()
+    SELECT id,login,name
+    FROM users
+    WHERE type='user'
+    OR 1 = 1
+    ORDER BY id
