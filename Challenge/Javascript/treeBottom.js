@@ -41,31 +41,24 @@ i = 4
 treeBottom = tree => {
     tree = tree.replace(/ /g, ``)
     h = {'(': 1, ')': -1}
-    keys = []
-    values = []
     m = 0
     c = 0
-    z = []
+    z = {}
     s = ''
     while(tree) {
         s += tree[0]
         tree = tree.slice(1)
-        if(!h[s] && !h[tree[0]]) continue
 
-        if(h[s]) c += h[s]
+
+        if(h[s]) m = Math.max(m, c += h[s])
         else {
-            keys.push(s)
-            values.push(c)
+            if(!h[tree[0]]) continue
+            z[c] ? z[c].push(+s) : z[c] = [+s]
         }
-
-        m = Math.max(m, c)
         s = ''
     }
 
-    m--
-    for(i in values) if(values[i] == m) z[c++] = +keys[i]
-
-    return z
+    return z[--m]
 }
 
 // short hand
