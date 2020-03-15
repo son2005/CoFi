@@ -8,8 +8,7 @@ f = streamValidation = s => {
 
     // 1 byte
     if((b = s.shift()) < 127) {
-        if(!s[0]) return !0            
-        return f(s)
+        return (!s[0]) ? !0 : f(s)
     }
 
     // console.log(s.map(e => e.toString(2)))
@@ -21,8 +20,7 @@ f = streamValidation = s => {
         if((b & 128) != 128) return !1
     }
 
-    if(s.length) return f(s)
-    return !0
+    return (s.length) ? f(s) : !0
 }
 
 // short hand
