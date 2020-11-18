@@ -1,2 +1,2 @@
-# Code Fight or App Signal Solutions
+# Code Fight or App CodeSignal Solutions
 
